@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "name": "express-2",
+  "description": "updated express file 2.0",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaeldiaz/express-2-2.git"
+  },
+  "author": "Raphael Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaeldiaz/express-2-2/issues"
+  },
+  "homepage": "https://github.com/raphaeldiaz/express-2-2#readme"
+}

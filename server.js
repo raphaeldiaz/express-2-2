@@ -34,5 +34,5 @@ app.get('/users/view/:id', function(req, res) {
  
 app.listen(PORT,()=>{
  console.log(`App is running on port ${PORT}`);
-console.log(data)
+ console.log(data);
 });

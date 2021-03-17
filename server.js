@@ -22,10 +22,10 @@ app.get('/users', function(req, res) {
 });
 
 //add user/view route - we are cheating by using the array index + 1
-app.get('/users/view/:id', function(req, res) {
+app.get('/users/views/:id', function(req, res) {
   var title = 'User Page';
   var id = req.params.id;
-  res.render('users/view', {
+  res.render('users/views', {
       title: title,
       user: data[--id]
   });
